@@ -9,16 +9,52 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Something great is getting code
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
+          <div className='social'>
+            <a
+              className="icon-github"
+              href="https://github.com/highorderio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            <a
+              className="icon-linkedin"
+              href="https://twitter.com/highorderio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            <a
+              className="icon-youtube"
+              href="https://www.youtube.com/channel/UCq1yIR2_7Ye5fD2LEooJl0g"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            <a
+              className="icon-medium"
+              href="https://medium.com/@highorderio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            <a
+              className="icon-facebook"
+              href="https://www.facebook.com/highorderio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+            <a
+            className="icon-twitter"
+            href="https://twitter.com/highorderio"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
           </a>
+          </div>
         </header>
       </div>
     );
