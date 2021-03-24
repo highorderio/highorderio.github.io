@@ -8,11 +8,11 @@ export default [
     label: 'Features',
   },
   {
-    path: 'feedback',
-    label: 'Feedback',
+    path: 'about',
+    label: 'How we work',
   },
   {
-    path: 'support',
-    label: 'Support',
+    path: 'clients',
+    label: 'Clients Portfolio',
   },
 ];

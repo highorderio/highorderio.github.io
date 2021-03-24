@@ -11,26 +11,24 @@ const data = [
   {
     id: 1,
     imgSrc: Marketplace,
-    altText: 'Marketplace',
-    title: 'Trusted marketplace',
-    text:
-      'Our homes are designed to be move-in ready. Think furnished common areas, super fast wifi, and flexible leases.',
+    altText: 'Analyze',
+    title: 'Problem solving',
+    text: 'Our team of experts love to analyze and really understand the problem to create the best solution possible. We will create the best solution for your needs.',
   },
   {
     id: 2,
     imgSrc: Gift,
     altText: 'Gift',
-    title: 'Customer Gift vouchers',
+    title: 'Process',
     text:
-      'Our homes are designed to be move-in ready. Think furnished common areas, super fast wifi, and flexible leases.',
+      'Our team will always have as a priority the business goals that you want to achieve.',
   },
   {
     id: 3,
     imgSrc: Award,
-    altText: 'Awards',
-    title: 'Multiple Awards wins',
-    text:
-      'Our homes are designed to be move-in ready. Think furnished common areas, super fast wifi, and flexible leases.',
+    altText: 'Deliver',
+    title: 'Delivery',
+    text: 'Our team will deliver a high-quality solution that will boost your business',
   },
 ];
 
@@ -39,8 +37,8 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }} id="feature">
       <Container>
         <SectionHeader
-          title="Go Beyond unlimited features"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
+          title="Go beyond with your product"
+          description="We work across different skill sets, technologies, and geographies. Delivering end-to-end digital solutions that drive their business growth and improve operating efficiency."
         />
 
         <Grid sx={styles.grid}>

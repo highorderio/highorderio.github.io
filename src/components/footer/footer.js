@@ -14,14 +14,13 @@ export default function Footer() {
         <Box sx={styles.footer.footerTopArea}>
           <Box sx={styles.copyrightArea}>
             <Box className="footer__logo">
-              <Logo src={FooterLogo} />
             </Box>
             <nav className="footer__menu">
               <Link path="/" label="Terms of use" />
               <Link path="/" label="Privacy" />
             </nav>
             <Text as="p" sx={styles.copyrightArea.copyright}>
-              Copyright by 2020 RedQ, Inc
+              Copyright by 2021 Highorder, Technologies
             </Text>
           </Box>
           <Flex sx={styles.footer.menuArea}>

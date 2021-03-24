@@ -24,7 +24,7 @@ export default function IndexPage() {
         <Knowledge />
         <ClientFeedback />
         <WorkFlow />
-        <Support />
+        {/* <Support /> */}
       </Layout>
     </StickyProvider>
   );
